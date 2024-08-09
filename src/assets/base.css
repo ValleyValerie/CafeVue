@@ -1,0 +1,89 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --bg1-white: #e9E5DB;
+  --bg2-white: #f4f5ef;
+  --text-set: #381b00;
+  --text-hover: #e7a15e;
+
+  --vt-c-black: #181818;
+ 
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--bg1-white);
+  --color-background2: var(--bg2-white);
+  --color-text: var(--text-set);
+  --color-hover-text: var(--text-hover);
+
+
+  --section-gap: 160px;
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson', serif;
+  color: #381b00; 
+}
+
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 2.25rem;        
+    line-height: 2.5rem;
+      font-weight: 500;
+  }
+  h2 {
+    font-size: 4.5rem ;
+    line-height: 1;
+    font-weight: 500;
+  }
+  h1  {
+    font-size: 8rem /* 128px */;
+    line-height: 1;
+    font-weight: 500;
+}
+}
+
+@media (min-width: 768px) {
+  h3 {
+      font-size: 1.875rem ;
+      line-height: 2.25rem ;
+      font-weight: 500;
+  }
+  h2 {
+    font-size: 3rem ;
+    line-height: 1;
+    font-weight: 500;
+}
+}
+
+body, p {
+  font-family: 'Inter', serif; 
+  color: #381b00;
+  font-size: 20px;
+}
