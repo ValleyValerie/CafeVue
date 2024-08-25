@@ -33,3 +33,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+# My Project
+
+Here is a screenshot of my project:
+![Screenshot 2024-08-25 171810](https://github.com/user-attachments/assets/18a545a6-98ca-4636-ae84-692cd3d0ad39)
+
+# Preview
+
+Here is the preview link :
+![Preview](https://cafe-vue.vercel.app/#home)
